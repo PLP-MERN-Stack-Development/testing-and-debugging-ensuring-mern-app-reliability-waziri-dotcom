@@ -1,0 +1,17 @@
+:root {
+  --bg: #ffffff;
+  --text: #111;
+  --card: #f7f7f7;
+}
+[data-theme="dark"] {
+  --bg: #0b0f14;
+  --text: #e6eef6;
+  --card: #0f1720;
+}
+body {
+  margin:0; font-family: Inter, system-ui, sans-serif;
+  background: var(--bg); color: var(--text);
+}
+.container { max-width: 900px; margin: 32px auto; padding: 16px; }
+.card { background: var(--card); padding: 16px; border-radius: 10px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+button { padding: 8px 12px; border-radius: 6px; cursor: pointer; }
